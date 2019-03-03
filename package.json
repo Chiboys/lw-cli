@@ -1,0 +1,35 @@
+{
+  "name": "lw-cli",
+  "version": "1.0.0",
+  "description": "cli for common command",
+  "main": "index.js",
+  "bin": {
+    "lwutil": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiboys/lw-cli.git"
+  },
+  "keywords": [
+    "lw-cli",
+    "common-command"
+  ],
+  "author": "wangLiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiboys/lw-cli/issues"
+  },
+  "homepage": "https://github.com/Chiboys/lw-cli#readme",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "commander": "^2.19.0",
+    "resolve": "^1.10.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
